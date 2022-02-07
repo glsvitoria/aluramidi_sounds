@@ -7,5 +7,7 @@ for(let btn of teclas){
 function tocarSom(btn){
     const som = btn.path[0].classList[1]
 
+    console.log(btn)
+
     document.querySelector(`#som_${som}`).play()
 }
